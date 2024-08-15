@@ -1,0 +1,32 @@
+.gpts__brand{
+    display: flex;
+    flex-wrap: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.gpts__brand div{
+    flex: 1;
+    max-width: 150px;
+    min-width: 120px;
+    margin: 1rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 550px){
+    .gpts__brand{
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .gpts__brand div{
+        margin-left: 30%;
+        margin-top: 0%;
+        padding-bottom: 7px;
+    }
+}
